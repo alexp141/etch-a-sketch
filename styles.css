@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    align-items: center;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    align-items: center;
+}
+
+.grid-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#slider {
+    width: 75%;
+}
