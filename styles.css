@@ -22,6 +22,7 @@
     width: 500px;
     height: 500px;
     flex-wrap: wrap;
+    border: 2px solid black;
 }
 
 .slider-container {
