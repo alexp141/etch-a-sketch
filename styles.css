@@ -23,6 +23,8 @@
     height: 500px;
     flex-wrap: wrap;
     border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .slider-container {
@@ -31,6 +33,20 @@
     justify-content: center;
 }
 
+.color-container {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
 #slider {
     width: 75%;
+}
+
+#color-picker {
+    flex: 1;
+    border-color: transparent;
+    appearance: none;
+    width: 100%;
+    height: auto;
 }
